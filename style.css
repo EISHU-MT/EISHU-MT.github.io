@@ -1,0 +1,86 @@
+body {
+	/*background: #f10;
+	/background: linear-gradient(170deg, white, black);
+	//background-image: url(http://ehs.minetest.land/BlackEISHU.png);
+	*/
+	
+	font-family: Quicksand;
+	width: device-width;
+	height: device-height;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-image: url(https://ehs.minetest.land/world_map.png);
+
+}
+h1 {
+	color: white;
+	background-color: black; 
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+}
+.top_thing {
+	background-color: #CCC;
+	position: relative;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+.top_thing img {
+	object-position: right top;
+	width: 110px;
+	height: 45px;
+}
+.sub_top_thing {
+	background-color: #CCC;
+	position: absolute;
+}
+em {
+	object-position: top center;
+}
+.profile {
+	object-position: center top;
+	background: darkgrey;
+	border-radius: 10px 10px 0px 0px;
+	padding-bottom: 10px;
+}
+
+#section_of_profile {
+	padding-left: 5px;
+}
+
+#about_button {
+	border: 0px;
+	background-color: #CCC;
+
+}
+#games_button {
+	border: 0px;
+	background-color: #CCC;
+}
+
+#text_style_normal {
+	font-family: Quicksand;
+	opacity: 1;
+	color: black;
+}
+
+#text_style_warning {
+	font-family: Arial;
+	opacity: 1;
+	color: orange;
+	background-color: grey;
+}
+#text_style_footer {
+	text-align: center;
+	font-family: Quicksand;
+	font-weight: bold;
+}
+footer {
+	border-radius: 5px 5px 5px 5px;
+	background-color: lightgrey;
+	height: 20px;
+	position: relative;
+	bottom: 0;
+}
+

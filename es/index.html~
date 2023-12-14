@@ -1,0 +1,48 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' type='text/css' href="https://ehs.minetest.land/style.css">
+	<link rel="icon" type="image/x-icon" href="https://ehs.minetest.land/favicon.ico">
+	<title>E's: Inicio</title>
+</head>
+<body lang="en">
+	<div class="top_thing">
+		<a href="https://eishu-mt.github.io" ><img src="https://ehs.minetest.land/BlackEISHU.png" alt="logo"></a>
+		<a href="https://eishu-mt.github.io/es/sobre_nosotros.html" ><button id="about_button">Acerca/Contactar</button></a>
+		<a href="https://eishu-mt.github.io/es/juegos.html" ><button id="games_button">Juegos</button></a>
+	</div>
+	<div class="profile">
+		<h1>Inicio</h1>
+		<p onclick="alert('This website is not officially released jet. So, expect glitches/bugs')" id="text_style_warning">Nota: esta pagina web "ehs.minetest.land" esta en desarrollo.</p>
+		<p id="text_style_normal">Para contactarme ve en Contactar en la parte superior de la pagina web. <br> Soy un desarrollador de Software (Como Videojuegos y sus mods), algunas de mis creaciones son: </p>
+		<a href="http://www.google.com/search?client=firefox-b-e&q=Minetest+Blockassault" >
+			<p style="background-color: white;">BlockAssault MT (SubJuego)</p>		
+		</a>
+		<a href="https://content.minetest.net/packages/KareaGhandTrail/bs_bots/" >
+			<p style="background-color: white;">BlockAssaultBots (Mod)</p>		
+		</a>
+		<p id="text_style_normal">Aqui estan algunas imagenes del juego y el mod:</p>
+		<a href="https://content.minetest.net/users/KareaGhandTrail">
+			<img id="images_deco" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLt716zBuOEkC1fk0YuXTNpROv-lyXvLDafSOG-TebxmfmTFpxVQV7AjeJKK4dbPLJrJw&usqp=CAU" style="width:300px;height:150px;" alt="1st image" >
+			<img id="images_deco" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIBYwrR-LFvawIfZ4Ia04-z5mfZUt4uVWyomaDY3fwJTC2jsGHD8KISl0qlS6MJnsLa2Q&usqp=CAU" style="width:300px;height:150px;" alt="2st image" >		
+			<img id="images_deco" src="https://content.minetest.net/uploads/ac1134dc13.png" alt="3st image" style="width:300px;height:150px;">		
+
+		</a> 
+		<p id="text_style_normal">Tambien, Soy dueno de algunos servidores de Minetest, tales como:</p>
+		<a href="blockassault_stats.html">
+			<p id="text_style_normal"># BlockAssault</p>		
+		</a>
+		<a href="blockassault_stats.html">
+			<p id="text_style_normal"># Catars Private Server <br><small id="text_style_normal">Nota: Pregunte al dueno del servidor para entrar.</small></p>	
+			
+		</a>
+	</div>
+	<footer>	
+		<p id="text_style_footer">EHS &copy 2022-23 A: EISHU (Donatto Viveros)</p>	
+	</footer>
+	<script type="text/javascript" >
+		let lang = navigator.language[0] + navigator.language[1];			
+		if (lang == "en") {
+			location.assign('https://ehs.minetest.land/index.html')
+		}
+	</script>
+</body>
