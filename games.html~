@@ -12,9 +12,9 @@
 </head>
 <body>
 	<div class="top_thing">
-		<a href="index.html" ><img src="BlackEISHU.png" alt="logo"></a>
-		<a href="about_us.html" ><button id="about_button">About/Contact</button></a>
-		<a href="games.html" ><button id="games_button">Games</button></a>
+		<a href="https://eishu-mt.github.io" ><img src="BlackEISHU.png" alt="logo"></a>
+		<a href="https://eishu-mt.github.io/about_us.html" ><button id="about_button">About/Contact</button></a>
+		<a href="https://eishu-mt.github.io/games.html" ><button id="games_button">Games</button></a>
 	</div>
 	<div class="profile">
 		<h1>Games</h1>
